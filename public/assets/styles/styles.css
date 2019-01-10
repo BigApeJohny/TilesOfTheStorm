@@ -1,0 +1,123 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    width: 100%;
+    height: 100%;
+}
+.info {
+    position: absolute;
+    z-index: 100;
+    width: 20vw;
+    height: 10vh;
+    background: #00ffe5;
+    text-align: center;
+    font-size: 2.2vh;
+    line-height: 10vh;
+}
+.blue-style {
+    background-color: #00ffe5;
+    border-top: solid 5px #1a63d8;
+    border-right: solid 16px #1a63d8;
+    border-left: solid 16px #1a63d8;
+    border-bottom: solid 5px #1a63d8;
+    border-radius: 50px;
+}
+.info-board {
+    position: absolute;
+    text-align: center;
+    left: 20vw;
+    top: 25vh;
+    width: 60vw;
+    height: 50vh;
+    z-index: 100;
+}
+#player-name {
+    color: #1a63d8;
+    font-weight: bold;
+    line-height: 5vh;
+    border-right: solid 16px #1a63d8;
+    border-bottom: solid 5px #1a63d8;
+    border-bottom-right-radius: 50px 50px;
+}
+#move {
+    color: #1a63d8;
+    font-weight: bold;
+    border-left: solid 16px #1a63d8;
+    border-bottom: solid 5px #1a63d8;    
+    border-bottom-left-radius: 50px;
+    right: 0;
+    font-size: 3.5vh;
+}
+#score-board {
+    font-weight: bold;
+    color: #1a63d8;
+    display: block;
+    position: absolute;
+    left: 25vw;
+    top: -54vh;
+    width: 50vw;
+    height: 50vh;
+    z-index: 100;
+}
+#score-board #header {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 4.5vh;
+    width: 100%;
+}
+#score-board hr {
+    border: 1px solid #1a63d8;
+    width: 90%;
+}
+#score-board #score-players {
+    padding-left: 10%;
+    font-size: 2.3vh;
+}
+#loading-screen div {
+    color: #1a63d8;
+    font-size: 6vh;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#loading-screen img {
+    height: 45%;
+    width: auto;
+}
+#player-left {
+    text-align: center;
+    position: absolute;
+    color: #1a63d8;
+    display: none;
+    height: 10vh;
+    line-height: 10vh;
+    width: 40vw;
+    left: 30vw;
+    top: 5vh;
+    font-size: 3vh;
+    font-weight: bold;    
+}
+#players-list {
+    display: none;
+    text-align: center;
+    color: #1a63d8;
+    font-size: 2.5vh;
+    font-weight: bold;
+    position: absolute;
+    top: 20vh;    
+    padding: 0 2%;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#players-list div {
+    width: 100%;
+    text-align: left;
+    font-size: 2vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#players-list-names {
+    padding-bottom: 4%;
+}

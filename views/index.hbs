@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Memo</title>   
+    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
+  </head>
+  <body>
+    <div class="info" id="player-name">
+        <div>Your name is:</div>
+        <div id="player-name-change"></div>
+    </div>
+    <div class="info" id="move">
+    </div>
+    <div id="score-board" class="blue-style">
+        <div id="header">SCORE</div>
+        <hr>
+        <div id="score-players"></div>
+    </div> 
+    <div id="loading-screen" class="info-board blue-style">
+        <img src="/assets/images/loading.gif">
+        <div>waiting for players...</div>
+    </div>
+    <div id="player-left" class="blue-style">
+        
+    </div>
+    <div id="players-list" class="blue-style">
+        <p>Players in game:</p>
+        <div id="players-list-names">
+        </div>
+    </div>
+    <script src="/socket.io.slim.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/three.js"></script>
+    <script src="/obj-loader.js"></script>
+    <script src="/scene.js"></script>
+    <script src="/main.js"></script>
+    <script src="/objects.js"></script>
+  </body>
+</html>
